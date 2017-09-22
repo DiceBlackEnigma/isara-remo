@@ -1,0 +1,17 @@
+%nav.navbar.navbar-default.header
+  .container
+    .navbar-header
+      = link_to 'Isara Remo', page_path(id: 'home'), class: 'navbar-brand navbar-link'
+      %button{class: 'navbar-toggle collapsed', "data-toggle": 'collapse', "data-target": "#navcol-1"}
+        %span{class: 'sr-only'} Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+    .collapse.navbar-collapse#navcol-1
+      %ul.nav.navbar-nav.navbar-right
+        %li{role: 'presentation'}
+          = link_to 'History', page_path(id: 'history')
+        %li{role: 'presentation'}
+          %a{href: ''} Culture
+        %li{role: 'presentation'}
+          %a{href: ''} Notable Indigenes
