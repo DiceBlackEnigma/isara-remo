@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-md-offset-2 indigenes">
-          <a href="#">Notable Indigenes</a>
+          <%= link_to 'Notable Indigenes', page_path(id: 'indigenes') %>
         </div>
         <div class="col-md-4">
           <div class="row">
@@ -28,9 +28,7 @@
             </div>
           </div>
             <div class="col-md-12 history">
-              <a href="#">
-              History &amp; Villages
-            </a>
+              <%= link_to 'History & Villages', page_path(id: 'history') %>
             </div>
 
           <div class="row"></div>
