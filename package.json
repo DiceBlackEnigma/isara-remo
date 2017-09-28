@@ -1,5 +1,9 @@
 {
   "name": "isara-remo",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-imagemin": "^3.3.0"
+  }
 }
